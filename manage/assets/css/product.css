@@ -1,0 +1,23 @@
+input[type=submit],input[type=reset]{
+    margin: 5px;
+    width: 90px;
+}
+.btn{
+    background-color: #2a2a2a;
+    color: white;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: #383838;
+    color: white;
+}
+.fl_100px{
+    
+    display: inline;
+}
+.word_at_B{
+    color: black;
+}
+.word_at_R{
+    color: rgb(236, 74, 74);
+}

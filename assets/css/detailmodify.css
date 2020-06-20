@@ -1,0 +1,66 @@
+.bg_block{
+    background-color: #2A2A2A;
+    width: 100%;
+    padding: 50px 0px;
+}
+.block_container{
+    margin:  auto;
+    width: 80%;
+    padding: 30px;
+    background-color: #EDEEF0;
+    width: 990px;
+}
+.block_title{
+    font-size: 35px;
+}
+.block_row{
+    width: 100%;
+}
+.block_admin_info_title{
+    float: left;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.block_admin_info{
+    float: left;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    max-width: 790px;
+}
+.btn_black{
+    color: #DBC8A7;
+    background-color: #2A2A2A;
+    padding: 10px 20px;
+    margin: 10px;
+    float: right;
+}
+.btn_black:hover{
+    color: #DBC8A7;
+    background-color: #121013;
+    padding: 10px 20px;
+    margin: 10px;
+    float: right;
+    text-decoration: none;
+}
+.helf_part{
+    width: 50%;
+    float: left;
+}
+input[type=radio]{
+    margin-top: 20px;
+
+}
+input[type=text],input[type=date],input[type=tel]{
+    width: 350px;
+    margin-top: 10px;
+}

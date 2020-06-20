@@ -1,0 +1,95 @@
+img{
+    width: 100%;
+}
+.bg_w{
+    background-color: #EDEEF0;
+    padding: 20px 0px;;
+}
+.block_countainer{
+    margin: auto;
+    background-color: #EDEEF0;
+    width: 820px;
+}
+.good_info{
+    display: block;
+    width: 820px;
+    margin: 30px 0px;
+}
+.good_img{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.good_text{
+    width: 500px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    margin: 0px 10px;
+    border-style: solid;
+    position: relative;
+}
+.price_text{
+    font-size: 20px;
+}
+.count_title{
+    float: left;
+    font-size: 20px;
+}
+.count_select{
+    float: left;
+    width: 100px;
+    padding: 3px;
+}
+.add_cart_btn{
+    color: #DBC8A7;
+    background-color: #2A2A2A;
+    padding: 10px 20px;
+}
+.add_cart_btn:hover{
+    color: #DBC8A7;
+    background-color: #121013;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.good_big_title{
+    border-bottom-style: solid;
+}
+.row{
+    border-bottom-style: solid;
+    margin: 10px 1px;
+}
+.helf{
+    width: 50%;
+    float: left;
+}
+.pre30{
+    width: 30%;
+    float: left;
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+.pre70{
+    width: 70%;
+    float: left;
+    margin: 0px;
+    padding: 0px 10px;
+    color: gray;
+}
+.comment_area{
+    margin: 50px 0px;
+}
+.inrow{
+    width: 100%;
+    margin: 0px;
+}
+.star{
+    float: left;
+    padding: 10px 0px;
+    margin: 0px;
+}
+.row_title{
+    float: left;
+    margin: 10px 10px 0px 0px;
+}

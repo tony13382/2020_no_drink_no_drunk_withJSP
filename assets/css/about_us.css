@@ -1,0 +1,145 @@
+
+.bg_block{
+    background-color: #2A2A2A;
+    padding: 50px 0px;
+}
+.bg_white{
+    background-color: #EDEEF0;
+    padding: 20px 0px;
+}
+.countainer_block{
+    display: block;
+    width: 1240px;
+    margin: auto;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 5px;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.people_info {
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    background-color: #EDEEF0;
+    float: left;
+    position: relative;
+    border-style: solid;
+    border-color: #2A2A2A;
+    border-width: 1px;
+    border-radius: 20px;
+}
+.people_info_word{
+    margin: 15px 10px;;
+    font-size: 20px;
+}
+.social_media_icon_area{
+    width: 130px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.social_icon{
+    width: 50px;
+    float: left;
+    margin: 5px;
+}
+.feedback_area{
+    padding-top: 10px;
+}
+.feedback_title{
+    color: #C2AB92;
+    border-bottom-style: solid;
+    border-bottom-color: #C2AB92;
+    border-bottom-width: 1px;
+}
+.feedback_row{
+    color: #C2AB92;
+    border-bottom-style: solid;
+    border-bottom-color: #C2AB92;
+    border-bottom-width: 0.025px;
+    position: relative;
+}
+.feedback_input_title{
+    float: left;
+    width: 100px;
+    margin: 15px 20px;
+    text-align: right;
+}
+.feedback_inpt{
+    background-color: #2A2A2A;
+    border-style: none;
+    color: #C2AB92;
+    padding: 5px;
+    margin: 10px;
+    width: 500px
+}
+.feedback_texta{
+    resize: none;
+    color: #C2AB92;
+    background-color: #2A2A2A;
+    border-style: none;
+    padding: 5px;
+    width: 800px;
+    height: 100px;
+    margin: 10px;
+}
+.feedback_submit{
+    position: absolute;
+    border: none;
+    display: block;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    padding: 10px 40px;
+    font-size: 15px;
+    color: #C2AB92;
+    background-color: #121013;
+    right: 5px;
+    bottom: 10px;
+}
+.feedback_submit:hover {
+    background-color: #2A2A2A;
+    border-style: solid;
+    border-color: #C2AB92;
+    border-width: 0.5px;
+}

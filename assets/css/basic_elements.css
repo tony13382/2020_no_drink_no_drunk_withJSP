@@ -1,0 +1,237 @@
+/*ENGLISH SERIF FONT */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+section{
+    padding-top: 130px;
+    margin-top: -65px;
+    min-height: 100%;
+    padding-bottom: 423px;
+    margin-bottom:-423px;
+    z-index: -1;
+    min-width: 750px;
+    background-color: #2A2A2A;
+}
+.page_container{
+    background-color: #2A2A2A;
+    min-height: 100%;
+}
+.cleaner{
+    clear: both;
+}
+
+/*header*/
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black !important;
+    min-width: 750px;
+    height: 65px;
+    z-index: 1000;
+}
+.header_logo{
+    float: left;
+    height: 65px;
+    width: 140px;
+    padding: 20px;
+}
+.header_ul{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+.header_li{
+    float: left;
+    padding: 0px 20px;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.header_li_focus{
+    float: left;
+    padding: 0px 20px;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color: #C2AB92;
+    text-decoration: none;
+}
+.header_btn_area{
+    float: right;
+    margin-right: 20px;
+}
+.header_member_logo{
+    float: left;
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header_cart_logo{
+    float: left;
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+/*footer*/
+footer{
+    z-index: 1000;
+    min-width: 750px;
+}
+.footer_slogen{
+    font-family: "微軟正黑體";
+    color: #C2AB92;
+    text-align: center;
+    background-color: #121013;
+    margin: 0px;
+    padding: 20px;
+    font-size: 25px;
+    min-height: 33px;
+}
+.footer_block{
+    background: #2A2A2A;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    min-height: 270px;
+}
+.footer_block_s{
+    width: 80%;
+    display: block;
+    min-width: 100px;
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.footer25per{
+    width: 25%;
+    float: left;
+    min-width: 160px;
+}
+.footer50per{
+    width: 50%;
+    min-width: 300px;
+    float: left;
+}
+.footer_minititle{
+    color: #C2AB92;
+    margin-bottom: 3px;
+}
+.footer_titleline{
+    color: #C2AB92;
+    margin-top: 3px;
+    height: 1px;
+    background-color: #C2AB92;
+}
+.footer_info, .footer_info:hover{
+    color: #C2AB92;
+    text-align: right;
+    margin: 2px 0px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.footer_info:hover{
+    color: #C2AB92;
+    text-align: right;
+    margin: 2px 0px;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+.footer_ad_up{
+    color: #C2AB92;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    margin: 0px;
+}
+.footer_ad_down{
+    color: #C2AB92;
+    font-family: 'Lora', serif;
+    text-align: right;
+    font-size: 40px;
+    margin: 0px;
+}
+.footer_ad_area{
+    margin: auto;
+    width: 300px;
+    padding: 70px 0px;
+}
+p,a,h1,h2,h3,h4,buttom,input{
+    font-family: "微軟正黑體";
+}
+
+
+/*NO SAME*/
+html{
+    min-width: 1080px;
+}
+/*基本塊*/
+.bg_block{
+    background-color: #2A2A2A;
+    width: 100%;
+    padding: 30px 0px;
+}
+.block_container{
+    margin:  auto;
+    width: 80%;
+    padding: 30px;
+    background-color: #EDEEF0;
+    display: block;
+    overflow: auto;
+}
+.block_title{
+    font-size: 35px;
+}
+.block_row{
+    width: 100%;
+}
+.block_admin_info_title{
+    float: left;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.block_admin_info{
+    float: left;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    max-width: 790px;
+}
+.btn_black{
+    color: #DBC8A7;
+    background-color: #2A2A2A;
+    padding: 10px 20px;
+    margin: 10px;
+    float: right;
+}
+.btn_black:hover{
+    color: #DBC8A7;
+    background-color: #121013;
+    padding: 10px 20px;
+    margin: 10px;
+    float: right;
+    text-decoration: none;
+}

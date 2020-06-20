@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+}
+.bg_w{
+    background-color: #EDEEF0;
+    padding: 20px 0px;;
+}
+.block_countainer{
+    margin: auto;
+    background-color: #EDEEF0;
+    width: 820px;
+}
