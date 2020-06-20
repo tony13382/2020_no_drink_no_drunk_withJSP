@@ -1,0 +1,117 @@
+.bg_block{
+    background-color: #2A2A2A;
+    width: 100%;
+    padding: 30px 0px;
+    min-height: 100%;
+}
+.block_container{
+    margin:  auto;
+    width: 80%;
+    padding: 30px;
+    background-color: #EDEEF0;
+    max-width: 960px;
+    position: relative;
+}
+.single product{
+    padding-top: 30px;
+    
+}
+.cart_image{
+    width: 200px;height: 200px;
+    padding: 0px;
+    margin: 20px;
+    float: left;
+}
+.cart_r_sq{
+    float: left;
+}
+.cart_product_title{
+    font-size: 20px;
+    float: left;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.cart_product_price{
+    font-size: 20px;
+    max-width: 650px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.cart_produce_name{
+    font-size: 20px;
+    max-width: 650px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.cart_selector{
+    float: left;
+}
+.del_cart_btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 50px;
+    padding: 0px 20px;
+}
+.sub_btn{
+    border-style: none;
+}
+.sub_btn:hover{
+    border-style: none;
+    background-color: #2A2A2A;
+    color: #C2AB92;
+}
+.cart_select_item{
+    margin: 13px 0px;
+    height: 30px;
+    padding: 0px 30px;
+}
+input.submit_btn{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 10px 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+}
+p.submit_btn{
+    float: left;
+    min-width: 50px;
+    height: 30px;
+    margin: 10px 2px;
+    padding: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+}
+.cart_gap_line{
+    height: 5px;
+    width: 100%;
+}
+.next_container{
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    max-width: 960px;
+    text-align: right;
+}
+.next_btn{
+    padding: 10px 40px;
+    font-size: 25px;
+    color: black;
+    background-color: #EDEEF0;
+}
+.next_btn:hover{
+    padding: 10px 40px;
+    font-size: 25px;
+    color: #C2AB92;
+    text-decoration: none;
+    background-color: #121013;
+}

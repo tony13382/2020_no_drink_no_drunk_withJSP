@@ -1,0 +1,136 @@
+/*通用*/
+div.cleaner{
+    clear: both;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 400px;
+    background: gray;
+    overflow: hidden;
+}
+/*BAR*/
+div.select_bar{
+    width: 100%;
+    margin: 0px;
+    background-color: #000000;
+}
+ul.select_bar_ul{
+    list-style: none;
+    margin: 0px;
+}
+li.select_bar_item{
+    float: left;
+    color: #C2AB92;
+    padding: 20px;
+}
+div.select_bar_search_area{
+    float: right;
+    margin: 0px;
+    padding: 20px;
+}
+.select_bar_search_icon{
+    background-image: url(../images/page_element/search_icon.png);
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: transparent;
+}
+.select_bar_search_inputt{
+    margin: 0px;
+    border: none;
+    margin: 0px 0px;
+}
+/*商品展示*/
+.back_block{
+    background-color: #2A2A2A;
+}
+.block_countainer{
+    width: 70%;
+    margin: auto;
+    min-width: 1000px;
+}
+.block_img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.block_name{
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    float: left
+}
+.block_product{
+    width: 33.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.block_inner{
+    margin: auto;
+}
+.block_item{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.block_love{
+    background-image: url(../images/page_element/love.png);
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    border: none;
+    margin-top: 20px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    color: transparent;
+}
+.block_love_R{
+    background-image: url(../images/page_element/love-R.png);
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    border: none;
+    margin-top: 20px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    color: transparent;
+}
+form.block_form{
+    display:inline-block
+}
+.block_loaction{
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+.favroite_title{
+  color: white;
+}
+.favroite_info,.favroite_info:hover{
+  color: white;
+  text-decoration: none;
+}
+.favroite_toinfo_title{
+  display:inline; margin-right:-10px;
+}
+.favroite_toinfo_block{
+  display: table;
+  text-align: right;
+  width: 100%;
+}
+.block_bigrow{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    overflow: hidden;
+}
